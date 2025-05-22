@@ -1,22 +1,14 @@
-import HomePageMobile from '../components/HomePage/HomePageMobile'
-import HomePageDesktop from '../components/HomePage/HomePageDesktop'
-import { useState, useEffect } from 'react';
+import IntroductionSection from "../components/HomePage/IntroductionSection";
+import TimelineSection from "../components/HomePage/TimelineSection";
 
 const HomePage = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  return (
+    <div>
+      <IntroductionSection />
+      <TimelineSection />
+    </div>
 
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkScreenSize();
-    window.addEventListener('resize', checkScreenSize);
-
-    return () => window.removeEventListener('resize', checkScreenSize);
-  }, []);
-
-  return isMobile ? <HomePageMobile /> : <HomePageDesktop />;
+  )
 }
 
 export default HomePage;
