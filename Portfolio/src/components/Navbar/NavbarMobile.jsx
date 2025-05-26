@@ -1,11 +1,14 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavbarMobile = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   return (
     <nav className={`md:hidden fixed top-6 left-1/2 transform -translate-x-1/2 w-[90%] max-w-6xl bg-[#F2F2F2] shadow-md z-50 ${menuOpen ? 'rounded-3xl' : 'rounded-full'
@@ -15,7 +18,7 @@ const NavbarMobile = () => {
           <img
             src="/logoRondZB.png"
             alt="Logo"
-            className="w-16 h-16 object-contain rounded-full border-1 border-[#5F0077]"
+            className={`w-16 h-16 object-contain rounded-full border-1 border-[#5F0077]`}
           />
 
         </Link>
@@ -23,7 +26,7 @@ const NavbarMobile = () => {
         <button
           onClick={toggleMenu}
           aria-label="Toggle menu"
-          className="text-[#333333] hover:text-[#5F0077] transition p-2"
+          className={`text-[#333333] hover:text-[#5F0077] transition p-2`}
         >
           {menuOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
         </button>
@@ -34,21 +37,21 @@ const NavbarMobile = () => {
           <div className="flex flex-col items-center space-y-5 text-[#333333] font-medium text-lg">
             <Link
               to="/"
-              className="w-full text-center hover:text-[#5F0077] transition py-2"
+              className={`w-full text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/" ? "text-[#5F0077] font-semibold" : ""}`}
               onClick={() => setMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="w-full text-center hover:text-[#5F0077] transition py-2"
+              className={`w-full text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/about" ? "text-[#5F0077] font-semibold" : ""}`}
               onClick={() => setMenuOpen(false)}
             >
               About
             </Link>
             <Link
               to="/projects"
-              className="w-full text-center hover:text-[#5F0077] transition py-2"
+              className={`w-full text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/projects" ? "text-[#5F0077] font-semibold" : ""}`}
               onClick={() => setMenuOpen(false)}
             >
               Projects
