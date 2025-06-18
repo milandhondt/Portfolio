@@ -5,6 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <IntroductionSection />
+      <TimelineSection />
     </div>
 
   )
