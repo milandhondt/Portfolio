@@ -17,11 +17,13 @@ const CustomButton = ({ to, text, isCVButton }) => {
   }
 
   return (
-    <Link to={to}>
-      <button className={"mt-6 cursor-pointer bg-[#5F0077] text-white hover:bg-[#7A1499] transition-colors px-6 py-2 rounded-full shadow-md flex items-center gap-2"}>
-        {text}
-      </button>
+    <Link
+      to={to}
+      className="mt-6 cursor-pointer bg-[#5F0077] text-white hover:bg-[#7A1499] transition-colors px-6 py-2 rounded-full shadow-md flex items-center gap-2 inline-block"
+    >
+      {text}
     </Link>
+
   );
 };
 

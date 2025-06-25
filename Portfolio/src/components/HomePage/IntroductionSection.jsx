@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Title from "../General Components/Title";
 import CustomButton from "../General Components/CustomButton";
 import Spacer from "../Spacer";
@@ -15,7 +14,7 @@ const IntroductionSection = () => {
           className="rounded-full h-[360px] w-[360px] object-cover shadow-lg"
           alt="Portretfoto van Milan Dhondt"
         />
-        <div className="text-center md:text-left max-w-xl">
+        <div>
           <Title onLeft={false} white={true} pos={"L"} text="Full stack developer" />
           <p className="mt-4 text-[#F2F2F2] mr-5">
             Ik ben Milan, en momenteel studeer ik Toegepaste Informatica aan HoGent, met een specialisatie in Mobile en Enterprise Development.
