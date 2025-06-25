@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <div>
       <Navbar />
-      <Spacer />
+      <Spacer black={true} big={true} />
       <Outlet />
       <Footer />
       <ScrollRestoration />

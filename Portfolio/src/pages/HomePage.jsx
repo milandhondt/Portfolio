@@ -1,11 +1,11 @@
 import IntroductionSection from "../components/HomePage/IntroductionSection";
-import TimelineSection from "../components/HomePage/TimelineSection";
+import CVSection from '../components/HomePage/CVSection';
 
 const HomePage = () => {
   return (
     <div>
       <IntroductionSection />
-      <TimelineSection />
+      <CVSection />
     </div>
 
   )
