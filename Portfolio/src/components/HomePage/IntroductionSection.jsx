@@ -15,9 +15,9 @@ const IntroductionSection = () => {
           alt="Portretfoto van Milan Dhondt"
         />
         <div>
-          <Title onLeft={false} white={true} pos={"L"} text="Full stack developer" />
-          <p className="mt-4 text-[#F2F2F2] mr-5">
-            Ik ben Milan, en momenteel studeer ik Toegepaste Informatica aan HoGent, met een specialisatie in Mobile en Enterprise Development.
+          <Title onLeft={false} white={true} pos={"L"} text="Milan Dhondt - Full stack developer" />
+          <p className="mt-4 text-4xl text-[#F2F2F2] mr-5">
+            Ik ben Milan, en momenteel studeer ik Toegepaste Informatica aan HOGENT, met een specialisatie in Mobile en Enterprise Development.
             Moest je vragen hebben of willen samenwerken, dan hoor ik het graag!
           </p>
           <CustomButton to={"/contact"} text={"Neem contact op"} />
