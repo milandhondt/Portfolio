@@ -7,10 +7,10 @@ const SmallProjectsSection = () => {
   return (
     <>
       <Spacer black={true} />
-      <section className="bg-[#333333] flex flex-col md:flex-row">
+      <section className="bg-[#333333]">
         <XSpacer big={true} black={true} />
-        <Title white={true} pos={"L"} text="Projecten" />
-        <ProjectList duo={true}/>
+        <Title white={true} pos={"L"} onLeft={true} text="Projecten" />
+        <ProjectList duo={true} />
       </section>
     </>
   );

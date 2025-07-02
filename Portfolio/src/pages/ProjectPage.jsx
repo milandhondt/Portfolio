@@ -2,8 +2,7 @@ import ProjectList from "../components/Projects/ProjectList";
 
 const ProjectPage = () => {
   return (
-    <div>
-      <p>Ik ben project pagina!</p>
+    <div className="bg-[#333333]">
       <ProjectList duo={false} />
     </div>
   )

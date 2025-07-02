@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "titel": "Feel The Taste",
+    "beschrijving": "Dit project werd gerealiseerd in samenwerking met 4 studenten bedrijfsmanagement in het kader van hun bachelorproef. Hiervoor maakte ik een website, en ik hielp hun ook bij het deployen ervan.",
+    "foto": "/screenshot_FeelTheTaste.png",
+    "code": "https://github.com/milandhondt/Feel-The-Taste",
+    "link": "https://feelthetaste.be/home"
+  },
+  {
+    "id": 2,
+    "titel": "Psychplanner",
+    "beschrijving": "Dit project was een schoolopdracht waarbij ik een afspraakomgeving maakte voor een psycholooge. Hier konden klanten profielen aanmaken, en afspraken boeken, en konden psychologen beschikbaarheden en services aanpassen.",
+    "foto": "/screenshot_PsychPlanner.png",
+    "link": null,
+    "code": "https://github.com/milandhondt/Psychplanner"
+  }
+]
