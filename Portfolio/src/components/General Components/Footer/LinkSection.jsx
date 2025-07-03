@@ -25,7 +25,7 @@ const LinkSection = () => {
       <div className="flex items-center gap-2">
         <FaGithub />
         <a href="https://github.com/milandhondt" target="_blank" rel="noopener noreferrer" className="hover:underline">
-          @milanDhondt
+          @milandhondt
         </a>
       </div>
     </div>
