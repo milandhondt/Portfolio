@@ -9,7 +9,7 @@ const SmallProjectsSection = () => {
       <Spacer black={true} />
       <section className="bg-[#333333]">
         <XSpacer big={true} black={true} />
-        <Title white={true} pos={"L"} onLeft={true} text="Projecten" />
+        <Title white={true} pos={"C"} onLeft={true} text="Projecten" />
         <ProjectList duo={true} />
       </section>
     </>

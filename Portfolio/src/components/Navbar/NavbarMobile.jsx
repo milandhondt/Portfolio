@@ -37,21 +37,21 @@ const NavbarMobile = () => {
           <div className="flex flex-col items-center space-y-5 text-[#333333] font-medium text-lg">
             <Link
               to="/"
-              className={`w-full text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/" ? "text-[#5F0077] font-semibold" : ""}`}
+              className={`w-full text-2xl text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/" ? "text-[#5F0077] font-semibold" : ""}`}
               onClick={() => setMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               to="/about"
-              className={`w-full text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/about" ? "text-[#5F0077] font-semibold" : ""}`}
+              className={`w-full text-2xl text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/about" ? "text-[#5F0077] font-semibold" : ""}`}
               onClick={() => setMenuOpen(false)}
             >
               About
             </Link>
             <Link
               to="/projects"
-              className={`w-full text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/projects" ? "text-[#5F0077] font-semibold" : ""}`}
+              className={`w-full text-2xl text-center hover:text-[#5F0077] transition py-2 ${currentPath === "/projects" ? "text-[#5F0077] font-semibold" : ""}`}
               onClick={() => setMenuOpen(false)}
             >
               Projects
