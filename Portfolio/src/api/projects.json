@@ -12,7 +12,7 @@
     "titel": "Psychplanner",
     "beschrijving": "Dit project was een schoolopdracht waarbij ik een afspraakomgeving maakte voor een psycholooge. Hier konden klanten profielen aanmaken, en afspraken boeken, en konden psychologen beschikbaarheden en services aanpassen.",
     "foto": "/screenshot_PsychPlanner.png",
-    "link": null,
+    "link": "https://frontendweb-2425-milandhondt-frontend.onrender.com/home",
     "code": "https://github.com/milandhondt/Psychplanner"
   }
 ]
