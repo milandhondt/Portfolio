@@ -3,8 +3,6 @@ import { FaPhone, FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa6";
 const LinkSection = () => {
   return (
     <div className="space-y-4">
-      <p className="underline text-xl font-semibold">Contact</p>
-
       <div className="flex items-center gap-2">
         <FaPhone />
         <a href="tel:+32478410722" className="hover:underline">+32 478 41 07 22</a>

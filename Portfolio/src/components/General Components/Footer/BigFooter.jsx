@@ -9,6 +9,7 @@ const BigFooter = () => {
         className="w-32 h-32 object-contain border border-[#5F0077] rounded-full"
       />
       <div className="md:ml-auto md:mr-0 mt-6 md:mt-0">
+        <p className="underline text-xl mb-3 font-semibold">Contact</p>
         <LinkSection />
       </div>
     </div>

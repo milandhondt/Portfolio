@@ -25,7 +25,7 @@ const ProjectList = ({ duo }) => {
           <p>
             Bekijk mijn <Link to={"/projects"} className="underline">
               projecten pagina
-            </Link>            om al mijn huidige projecten te bekijken!
+            </Link>            om al mijn projecten te bekijken!
 
           </p>
         </div>
