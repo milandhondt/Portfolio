@@ -16,9 +16,9 @@ const NavbarDesktop = () => {
       </Link>
 
       <div className="flex-1 flex justify-center space-x-10 text-[#333333] font-medium text-lg">
-        <Link to="/" className={`text-3xl hover:text-[#5F0077] transition ${currentPath === "/" ? "text-[#5F0077] font-semibold" : ""}`}>Home</Link>
-        <Link to="/about" className={`text-3xl hover:text-[#5F0077] transition ${currentPath === "/about" ? "text-[#5F0077] font-semibold" : ""}`}>About</Link>
-        <Link to="/projects" className={`text-3xl hover:text-[#5F0077] transition ${currentPath === "/projects" ? "text-[#5F0077] font-semibold" : ""}`}>Projects</Link>
+        <Link to="/" className={`text-2xl hover:text-[#5F0077] transition ${currentPath === "/" ? "text-[#5F0077] font-semibold" : ""}`}>Home</Link>
+        <Link to="/about" className={`text-2xl hover:text-[#5F0077] transition ${currentPath === "/about" ? "text-[#5F0077] font-semibold" : ""}`}>About</Link>
+        <Link to="/projects" className={`text-2xl hover:text-[#5F0077] transition ${currentPath === "/projects" ? "text-[#5F0077] font-semibold" : ""}`}>Projects</Link>
       </div>
 
       <Link
