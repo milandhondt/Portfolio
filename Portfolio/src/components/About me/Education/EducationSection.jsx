@@ -1,6 +1,6 @@
 const EducationSection = () => {
   return (
-    <div>EducationSection</div>
+    <div className="bg-[#F2F2F2]">EducationSection</div>
   )
 }
 
