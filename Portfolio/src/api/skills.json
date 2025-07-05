@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "Programmeertalen",
+    "skills": [
+      "Java",
+      "Javascript",
+      "Typescript",
+      "HTML",
+      "CSS",
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Frameworks & Libraries",
+    "skills": [
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "ChakraUI",
+      "Spring Boot"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Tools & Werkmethodes",
+    "skills": [
+      "Git",
+      "GitHub",
+      "REST APIs",
+      "Figma",
+      "Scrum"
+    ]
+  }
+]
