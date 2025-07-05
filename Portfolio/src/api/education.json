@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "titel": "Economie Moderne Talen",
+    "school": "Edugo De Toren (Oostakker)",
+    "datum": "September 2016 - Juni 2022",
+    "beschrijving": null
+  },
+  {
+    "id": 2,
+    "titel": "Bachelor Toegepaste Informatica",
+    "school": "HOGENT",
+    "datum": "September 2022 - Heden",
+    "beschrijving": "Afstudeerrichting: Full Stack Developer"
+  }
+]
