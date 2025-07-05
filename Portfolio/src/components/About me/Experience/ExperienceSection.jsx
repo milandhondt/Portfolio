@@ -1,6 +1,12 @@
+import Title from "../../General Components/Title";
+import ExperienceList from "./ExperienceList";
+
 const ExperienceSection = () => {
   return (
-    <div>ExperienceSection</div>
+    <div>
+      <Title text={"Ervaring"} pos={"C"} white={true} />
+      <ExperienceList />
+    </div>
   )
 }
 
