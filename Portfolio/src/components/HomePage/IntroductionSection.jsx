@@ -16,7 +16,7 @@ const IntroductionSection = () => {
         <div className="text-center md:text-left max-w-xl">
           <Title onLeft={false} white={true} pos={"L"} text="Milan Dhondt - Full stack developer" />
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-[#F2F2F2] mx-0">
-            Ik ben Milan, en momenteel studeer ik Toegepaste Informatica aan HOGENT, met een specialisatie in Mobile en Enterprise Development.
+            Ik ben Milan, momenteel studeer ik Toegepaste Informatica aan HOGENT, met een specialisatie in Mobile en Enterprise Development.
             Moest je vragen hebben of willen samenwerken, dan hoor ik het graag!
           </p>
           <div className="mt-6 flex justify-center md:justify-start">
