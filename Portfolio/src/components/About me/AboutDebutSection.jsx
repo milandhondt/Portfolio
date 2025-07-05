@@ -12,7 +12,7 @@ const AboutDebutSection = () => {
         />
         <Title text={"Hallo, ik ben Milan Dhondt"} pos={"C"} white={true} />
         <p className="text-xl text-white mt-3 max-w-xl">
-          Ik ben een 21-jarige student full-stack development aan HOGENT. Tijdens mijn opleiding heb ik een sterke interesse ontwikkeld in zowel frontend als backend development. Ik werk graag in teamverband, omdat ik de verschillende input van mensen enorm leuk en interessant vind.
+          Ik ben een 21-jarige student Toegepaste Informatica aan HOGENT. Tijdens mijn opleiding heb ik een sterke interesse ontwikkeld in zowel frontend als backend development. Ik werk graag in teamverband, omdat ik de verschillende input van mensen enorm leuk en interessant vind.
         </p>
       </section>
       <Spacer big={false} black={true} />
