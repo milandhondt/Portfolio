@@ -14,5 +14,13 @@
     "foto": "/screenshot_PsychPlanner.png",
     "link": null,
     "code": "https://github.com/milandhondt/Psychplanner"
+  },
+  {
+    "id": 3,
+    "titel": "Shopfloor application",
+    "beschrijving": "Deze shopfloor application werd gebouwd met React, Node.js en Java. De applicatie ondersteunt o.a. gebruikersbeheer, site- en machinebeheer, en het genereren van PDF-rapporten. Gebruikers krijgen verschillende rollen met bijhorende rechten en functies. De applicatie werd ontwikkeld in teamverband binnen het vak Software Development Project 2.",
+    "foto": "/Screenshot_SDP2.png",
+    "link": null,
+    "code": "https://github.com/milandhondt/SDP2"
   }
 ]
