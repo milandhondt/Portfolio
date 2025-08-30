@@ -22,5 +22,13 @@
     "foto": "/Screenshot_SDP2.png",
     "link": null,
     "code": "https://github.com/milandhondt/SDP2"
+  },
+  {
+    "id": 4,
+    "titel": "FoodtruckFestival app",
+    "beschrijving": "Een Spring-Boot web applicatie, gemaakt voor het managen van foodtruck festivals. Deze app bevat o.a. role-based acces, event management, aankopen van tickets en een systeem om reviews te schrijven.",
+    "foto": "/Screenshot_EWD.png",
+    "link": null,
+    "code": "https://github.com/milandhondt/FoodtruckFestival-App"
   }
 ]
