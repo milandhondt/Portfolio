@@ -9,7 +9,9 @@
       "HTML",
       "CSS",
       "SQL",
-      "Python"
+      "Python",
+      "C#",
+      "NoSQL"
     ]
   },
   {
@@ -20,7 +22,12 @@
       "Node.js",
       "Tailwind CSS",
       "ChakraUI",
-      "Spring Boot"
+      "Spring Boot",
+      "Blazor",
+      ".NET",
+      "MongoDB",
+      "Redis",
+      "Neo4j"
     ]
   },
   {

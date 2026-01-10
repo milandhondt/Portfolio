@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "titel": "Feel The Taste",
-    "beschrijving": "Dit project werd gerealiseerd in samenwerking met 4 studenten bedrijfsmanagement in het kader van hun bachelorproef. Hiervoor maakte ik een website, en ik hielp hun ook bij het deployen ervan.",
-    "foto": "/screenshot_FeelTheTaste.png",
-    "code": "https://github.com/milandhondt/Feel-The-Taste",
-    "link": "https://feelthetaste.be/home"
+    "titel": "Campus App",
+    "beschrijving": "In opdracht van HOGENT werkte ik aan een proof of concept voor de My Campus-app: een centrale mobiele applicatie die studenten ondersteunt in hun dagelijkse campusleven. Het project richtte zich op het bundelen van versnipperde studenteninformatie in één overzichtelijke en gebruiksvriendelijke omgeving, met zowel persoonlijke als algemene HOGENT-informatie. Ons team werd hierbij verkozen tot beste groep, wat mij persoonlijk toch wel heel trots maakt, aangezien ik enorm veel tijd en moeite in dit project heb gestoken.",
+    "foto": "/screenshot_CampusApp.png",
+    "code": "https://github.com/milandhondt/CampusApp",
+    "link": "https://campusapp7.be"
   },
   {
     "id": 2,
@@ -30,5 +30,13 @@
     "foto": "/Screenshot_EWD.png",
     "link": null,
     "code": "https://github.com/milandhondt/FoodtruckFestival-App"
+  },
+  {
+    "id": 5,
+    "titel": "Feel The Taste",
+    "beschrijving": "Dit project werd gerealiseerd in samenwerking met 4 studenten bedrijfsmanagement in het kader van hun bachelorproef. Hiervoor maakte ik een website, en ik hielp hun ook bij het deployen ervan.",
+    "foto": "/screenshot_FeelTheTaste.png",
+    "code": "https://github.com/milandhondt/Feel-The-Taste",
+    "link": null
   }
 ]
