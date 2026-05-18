@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "LEGO Deathstar",
+    "url": "https://lego.com",
+    "img": "./fotoTitanic.jpg",
+    "description": "een super coole lego set met heel veel stukjes en die is wel gwn fucking duur xD",
+    "price": 136.5
+  },
+  {
+    "id": 2,
+    "name": "LEGO Deathstar",
+    "url": "https://lego.com",
+    "img": "./fotoTitanic.jpg",
+    "description": "een super coole lego set met heel veel stukjes en die is wel gwn fucking duur xD",
+    "price": 136.5
+  },
+  {
+    "id": 3,
+    "name": "LEGO Deathstar",
+    "url": "https://lego.com",
+    "img": "./fotoTitanic.jpg",
+    "description": "een super coole lego set met heel veel stukjes en die is wel gwn fucking duur xD",
+    "price": 136.5
+  }
+]

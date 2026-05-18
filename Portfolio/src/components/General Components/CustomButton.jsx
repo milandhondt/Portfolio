@@ -8,22 +8,18 @@ const downloadCV = () => {
   link.click();
 };
 
-const CustomButton = ({ to, text, isCVButton }) => {
-
+const CustomButton = ({ to, text, isCVButton, className = "" }) => {
   if (isCVButton) {
-    return (
-      <CustomCVButton onClick={downloadCV} />
-    );
+    return <CustomCVButton onClick={downloadCV} />;
   }
 
+  const baseClasses =
+    "mt-6 cursor-pointer bg-[#5F0077] text-white hover:bg-[#7A1499] transition-colors px-6 py-2 rounded-full shadow-md flex items-center gap-2 text-xl inline-block";
+
   return (
-    <Link
-      to={to}
-      className="mt-6 cursor-pointer bg-[#5F0077] text-white hover:bg-[#7A1499] transition-colors px-6 py-2 rounded-full shadow-md flex items-center gap-2 text-xl px-17 py-4 inline-block"
-    >
+    <Link to={to} className={`${baseClasses} ${className}`.trim()}>
       {text}
     </Link>
-
   );
 };
 
