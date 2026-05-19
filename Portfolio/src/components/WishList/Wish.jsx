@@ -7,7 +7,7 @@ const Wish = ({ name, url, img, description, price }) => {
         <img
           src={`./${img}`}
           alt={`Foto van ${name}`}
-          className="w-36 h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-lg flex-shrink-0 mx-auto md:mx-0"
+          className="w-36 h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full object-contain shadow-lg flex-shrink-0 mx-auto md:mx-0"
         />
 
         <div className="flex-1 w-full">

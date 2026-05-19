@@ -1,26 +1,18 @@
 [
   {
     "id": 1,
-    "name": "LEGO Deathstar",
-    "url": "https://lego.com",
-    "img": "./fotoTitanic.jpg",
-    "description": "een super coole lego set met heel veel stukjes en die is wel gwn fucking duur xD",
-    "price": 136.5
+    "name": "Two Point: Campus",
+    "url": "https://www.goonintendoswitch.nl/nintendo-switch-games/two-point-campus/",
+    "img": "./twoPointCampus.webp",
+    "description": "Game voor de switch die mij leuk lijkt :)",
+    "price": 18.99
   },
   {
     "id": 2,
-    "name": "LEGO Deathstar",
-    "url": "https://lego.com",
-    "img": "./fotoTitanic.jpg",
-    "description": "een super coole lego set met heel veel stukjes en die is wel gwn fucking duur xD",
-    "price": 136.5
-  },
-  {
-    "id": 3,
-    "name": "LEGO Deathstar",
-    "url": "https://lego.com",
-    "img": "./fotoTitanic.jpg",
-    "description": "een super coole lego set met heel veel stukjes en die is wel gwn fucking duur xD",
-    "price": 136.5
+    "name": "Snipperclips (plus)",
+    "url": "https://www.goonintendoswitch.nl/nintendo-switch-games/snipperclips-plus/",
+    "img": "./snipperClips.jpg",
+    "description": "Co-op game die mij ook heel leuk lijkt. Moet zeker niet de plus versie zijn :p",
+    "price": 20.99
   }
 ]
