@@ -14,5 +14,13 @@
     "img": "./snipperClips.jpg",
     "description": "Co-op game die mij ook heel leuk lijkt. Moet zeker niet de plus versie zijn :p",
     "price": 20.99
+  },
+  {
+    "id": 3,
+    "name": "Nintendo E-shop tegoed",
+    "url": "https://gamecardsdirect.com/be-nl/nintendo-eshop-card-25/",
+    "img": "./eShopTegoed.jpg",
+    "description": "Tegoed dat ik zelf kan gebruiken voor leuke games te kopen! :D",
+    "price": 25
   }
 ]
