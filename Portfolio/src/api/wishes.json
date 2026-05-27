@@ -22,5 +22,27 @@
     "img": "./eShopTegoed.jpg",
     "description": "Tegoed dat ik zelf kan gebruiken voor leuke games te kopen! :D",
     "price": 25
+  },
+  {
+    "id": 4,
+    "name": "Puremind - Harry Potter houten 3D puzzel",
+    "url": "https://www.amazon.nl/PUREMIND-Officieel-Gelicentieerde-Potter-Houten/dp/B0G1BXW8B9",
+    "img": "./GreatHall.jpg",
+    "description": "Mega coole 3D puzzel met ingebouwde lampjes en muziek! Dit is 1 uit 2 sets, meer specifiek The Great Hall.",
+    "price": 89.99
+  },
+  {
+    "id": 5,
+    "name": "Puremind - Harry Potter houten 3D puzzel",
+    "url": "https://www.amazon.nl/dp/B0G1BF6LDR/ref=emc_bcc_2_i",
+    "img": "./AstronomyTower.jpg",
+    "description": "Mega coole 3D puzzel met ingebouwde lampjes en muziek! Dit is 1 uit 2 sets, meer specifiek The Astronomy Tower.",
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "name": "Foto's",
+    "img": "./idk.jpg",
+    "description": "Heb je leuke foto's van ons samen? Print ze af! Fysieke foto's zijn altijd super leuk :p"
   }
 ]

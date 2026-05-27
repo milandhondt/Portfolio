@@ -18,16 +18,24 @@ const Wish = ({ name, url, img, description, price }) => {
             {description}
           </p>
           <div className="mt-2 text-center md:text-left">
-            <span className="text-lg font-bold text-gray-100">€{price}</span>
+            <span className="text-lg font-bold text-gray-100">
+              {price ? `€${price}` : "Prijs onbekend"}
+            </span>
           </div>
         </div>
       </div>
       <div className="w-full md:w-auto flex justify-center md:justify-end mt-3 md:mt-0">
-        <CustomButton
-          to={url}
-          text={"Bekijk dit product/artikel"}
-          className="w-full md:w-auto"
-        />
+        {url ? (
+          <CustomButton
+            to={url}
+            text={"Bekijk dit product/artikel"}
+            className="w-full md:w-auto"
+          />
+        ) : (
+          <span className="mt-6 px-6 py-2 rounded-full shadow-md bg-gray-500 text-white text-xl inline-block w-full md:w-auto text-center cursor-not-allowed">
+            Geen link beschikbaar
+          </span>
+        )}
       </div>
     </article>
   );
