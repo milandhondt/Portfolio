@@ -46,14 +46,6 @@
     "description": "Heb je leuke foto's van ons samen? Print ze af! Fysieke foto's zijn altijd super leuk :p"
   },
   {
-    "id": 7,
-    "name": "Haakset",
-    "img": "./haakset.jpg",
-    "description": "Ik zou graag leren haken en direct een setje met verschillende diktes zou heel handig zijn :)",
-    "price": 21.95,
-    "url": "https://www.bol.com/be/nl/p/qy-luxe-softgrip-haaknaaldenset-25-delig-met-haak-brei-accessoires-in-luxe-etui-blauw/9200000090042278/?cid=1781947651868-2455129665831"
-  },
-  {
     "id": 8,
     "name": "Games",
     "img": "./idk.jpg",
