@@ -1,10 +1,10 @@
 import { useForm, ValidationError } from '@formspree/react';
 import Title from '../General Components/Title';
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+const FORM_ID = import.meta.env.VITE_FORMSPREE_FORM_ID?.trim();
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm(API_KEY);
+  const [state, handleSubmit] = useForm(FORM_ID);
 
   if (state.succeeded) {
     return (
